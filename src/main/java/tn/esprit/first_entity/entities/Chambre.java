@@ -12,6 +12,7 @@ public class Chambre {
     Long idChambre;
     long numchambre;
     long capacite;
+    //
     @OneToMany
     Set<Reservation> reservations;
     @ManyToOne
