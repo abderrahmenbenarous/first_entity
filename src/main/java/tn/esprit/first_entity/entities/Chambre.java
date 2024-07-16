@@ -11,6 +11,7 @@ public class Chambre {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long idChambre;
     long numchambre;
+    long capacite;
     @OneToMany
     Set<Reservation> reservations;
     @ManyToOne
