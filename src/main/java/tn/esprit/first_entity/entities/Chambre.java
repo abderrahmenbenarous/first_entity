@@ -11,6 +11,7 @@ public class Chambre {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long idChambre;
     long numchambre;
+    @Column(length = 25)
     long capacite;
     //
     @OneToMany
