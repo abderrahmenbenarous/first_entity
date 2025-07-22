@@ -54,11 +54,7 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-<properties>
-    <sonar.projectKey>mon-projet</sonar.projectKey>
-    <sonar.host.url>http://localhost:9090</sonar.host.url>
-    <sonar.login>votre_token</sonar.login> <!-- pas recommandé en dur -->
-</properties>
+
     <build>
         <plugins>
             <plugin>
